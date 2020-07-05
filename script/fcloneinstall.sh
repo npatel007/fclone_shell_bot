@@ -1,6 +1,6 @@
 #!/bin/bash
 rm -rf fclone.sh
-wget https://raw.githubusercontent.com/cgkings/fclone_shell_bot/master/script/fclone.sh
+wget https://raw.githubusercontent.com/npatel007/fclone_shell_bot/master/script/fclone.sh
 echo  " [Fclone one-click dump script for own use] script configuration "
 read -p " Enter the name of the configuration fclone: " fcloneid
 sed -i "s/goog/$fcloneid/g" fclone.sh
